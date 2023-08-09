@@ -1,0 +1,20 @@
+void main() {
+
+  var productList = [
+    
+    {'Name': 'Soup', 'Price': 100},
+    {'Name': 'Egg', 'Price': 220},
+    {'Name': 'Salt', 'Price': 50},
+    {'Name': 'Milk', 'Price': 180},
+    
+  ];
+  
+  for (var oneProduct in productList) {
+    
+    var item = 'Product name is ${oneProduct['Name']} and price is ${oneProduct['Price']} taka';
+    
+    print (item);
+    
+  }
+  
+}
